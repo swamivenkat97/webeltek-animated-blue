@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:3000/#contact -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><meta name="next-head-count" content="2"><noscript data-n-css=""></noscript><script defer="" nomodule="" src="./localhost_files/polyfills.js.download"></script><script src="./localhost_files/webpack.js.download" defer=""></script><script src="./localhost_files/main.js.download" defer=""></script><script src="./localhost_files/_app.js.download" defer=""></script><script src="./localhost_files/index.js.download" defer=""></script><script src="./localhost_files/_buildManifest.js.download" defer=""></script><script src="./localhost_files/_ssgManifest.js.download" defer=""></script><style>/*
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}.container {
+  width: 100%;
+}@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}.pointer-events-none {
+  pointer-events: none;
+}.fixed {
+  position: fixed;
+}.absolute {
+  position: absolute;
+}.relative {
+  position: relative;
+}.sticky {
+  position: sticky;
+}.inset-0 {
+  inset: 0px;
+}.top-0 {
+  top: 0px;
+}.-z-10 {
+  z-index: -10;
+}.z-10 {
+  z-index: 10;
+}.z-40 {
+  z-index: 40;
+}.z-0 {
+  z-index: 0;
+}.z-20 {
+  z-index: 20;
+}.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}.mt-10 {
+  margin-top: 2.5rem;
+}.mt-3 {
+  margin-top: 0.75rem;
+}.mt-4 {
+  margin-top: 1rem;
+}.mt-5 {
+  margin-top: 1.25rem;
+}.mt-6 {
+  margin-top: 1.5rem;
+}.mt-8 {
+  margin-top: 2rem;
+}.mt-2 {
+  margin-top: 0.5rem;
+}.mt-16 {
+  margin-top: 4rem;
+}.inline-block {
+  display: inline-block;
+}.flex {
+  display: flex;
+}.inline-flex {
+  display: inline-flex;
+}.grid {
+  display: grid;
+}.hidden {
+  display: none;
+}.h-10 {
+  height: 2.5rem;
+}.h-2 {
+  height: 0.5rem;
+}.h-8 {
+  height: 2rem;
+}.h-full {
+  height: 100%;
+}.h-screen {
+  height: 100vh;
+}.h-1 {
+  height: 0.25rem;
+}.h-\[92vh\] {
+  height: 92vh;
+}.min-h-screen {
+  min-height: 100vh;
+}.w-10 {
+  width: 2.5rem;
+}.w-2 {
+  width: 0.5rem;
+}.w-auto {
+  width: auto;
+}.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}.w-full {
+  width: 100%;
+}.max-w-2xl {
+  max-width: 42rem;
+}.max-w-3xl {
+  max-width: 48rem;
+}.max-w-4xl {
+  max-width: 56rem;
+}.max-w-7xl {
+  max-width: 80rem;
+}.max-w-md {
+  max-width: 28rem;
+}@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}.cursor-pointer {
+  cursor: pointer;
+}.resize {
+  resize: both;
+}.list-none {
+  list-style-type: none;
+}.flex-col {
+  flex-direction: column;
+}.flex-wrap {
+  flex-wrap: wrap;
+}.items-center {
+  align-items: center;
+}.justify-center {
+  justify-content: center;
+}.justify-between {
+  justify-content: space-between;
+}.gap-2 {
+  gap: 0.5rem;
+}.gap-3 {
+  gap: 0.75rem;
+}.gap-4 {
+  gap: 1rem;
+}.gap-6 {
+  gap: 1.5rem;
+}.gap-8 {
+  gap: 2rem;
+}.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}.overflow-hidden {
+  overflow: hidden;
+}.rounded-2xl {
+  border-radius: 1rem;
+}.rounded-full {
+  border-radius: 9999px;
+}.rounded-xl {
+  border-radius: 0.75rem;
+}.border {
+  border-width: 1px;
+}.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}.border-b {
+  border-bottom-width: 1px;
+}.border-t {
+  border-top-width: 1px;
+}.border-blue-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(219 234 254 / var(--tw-border-opacity));
+}.border-blue-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(191 219 254 / var(--tw-border-opacity));
+}.border-emerald-500\/30 {
+  border-color: rgb(16 185 129 / 0.3);
+}.border-white\/60 {
+  border-color: rgb(255 255 255 / 0.6);
+}.bg-blue-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+}.bg-blue-50\/40 {
+  background-color: rgb(239 246 255 / 0.4);
+}.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}.bg-blue-950\/40 {
+  background-color: rgb(23 37 84 / 0.4);
+}.bg-brand {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 255 / var(--tw-bg-opacity));
+}.bg-emerald-500\/10 {
+  background-color: rgb(16 185 129 / 0.1);
+}.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}.bg-blue-950\/20 {
+  background-color: rgb(23 37 84 / 0.2);
+}.bg-blue-950\/10 {
+  background-color: rgb(23 37 84 / 0.1);
+}.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}.bg-blue-900\/10 {
+  background-color: rgb(30 58 138 / 0.1);
+}.bg-white\/10 {
+  background-color: rgb(255 255 255 / 0.1);
+}.bg-white\/90 {
+  background-color: rgb(255 255 255 / 0.9);
+}.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}.from-brand {
+  --tw-gradient-from: #007BFF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 123 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}.from-blue-600 {
+  --tw-gradient-from: #2563eb var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(37 99 235 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}.via-blue-700 {
+  --tw-gradient-to: rgb(29 78 216 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #1d4ed8 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}.to-brandDark {
+  --tw-gradient-to: #0056c9 var(--tw-gradient-to-position);
+}.to-blue-800 {
+  --tw-gradient-to: #1e40af var(--tw-gradient-to-position);
+}.to-blue-900 {
+  --tw-gradient-to: #1e3a8a var(--tw-gradient-to-position);
+}.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}.p-3 {
+  padding: 0.75rem;
+}.p-6 {
+  padding: 1.5rem;
+}.p-4 {
+  padding: 1rem;
+}.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}.pt-6 {
+  padding-top: 1.5rem;
+}.pb-8 {
+  padding-bottom: 2rem;
+}.text-center {
+  text-align: center;
+}.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}.font-medium {
+  font-weight: 500;
+}.font-semibold {
+  font-weight: 600;
+}.leading-tight {
+  line-height: 1.25;
+}.tracking-tight {
+  letter-spacing: -0.025em;
+}.text-blue-100 {
+  --tw-text-opacity: 1;
+  color: rgb(219 234 254 / var(--tw-text-opacity));
+}.text-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
+}.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}.text-blue-900 {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}.text-blue-900\/80 {
+  color: rgb(30 58 138 / 0.8);
+}.text-brand {
+  --tw-text-opacity: 1;
+  color: rgb(0 123 255 / var(--tw-text-opacity));
+}.text-emerald-700 {
+  --tw-text-opacity: 1;
+  color: rgb(4 120 87 / var(--tw-text-opacity));
+}.text-transparent {
+  color: transparent;
+}.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}.shadow-glow {
+  --tw-shadow: 0 0 24px rgba(0,123,255,.35);
+  --tw-shadow-colored: 0 0 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}.backdrop-blur {
+  --tw-backdrop-blur: blur(8px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}html,body,#__next{height:100%}html{scroll-behavior:smooth}.mask-radial{-webkit-mask-image:radial-gradient(ellipse at center,black,transparent 70%);mask-image:radial-gradient(ellipse at center,black,transparent 70%)}.open\:shadow-glow[open] {
+  --tw-shadow: 0 0 24px rgba(0,123,255,.35);
+  --tw-shadow-colored: 0 0 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.open\:shadow[open] {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.hover\:bg-blue-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}.hover\:bg-white\/20:hover {
+  background-color: rgb(255 255 255 / 0.2);
+}.hover\:text-brandDark:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 86 201 / var(--tw-text-opacity));
+}.hover\:text-blue-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}.hover\:text-blue-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
+}.hover\:shadow-glow:hover {
+  --tw-shadow: 0 0 24px rgba(0,123,255,.35);
+  --tw-shadow-colored: 0 0 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}.focus\:ring-brand:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(0 123 255 / var(--tw-ring-opacity));
+}.focus\:ring-blue-600:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(37 99 235 / var(--tw-ring-opacity));
+}@media (min-width: 640px) {
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}@media (min-width: 768px) {
+
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+}@media (min-width: 1024px) {
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvZ2xvYmFscy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0NBQWMsQ0FBZDs7O0NBQWM7O0FBQWQ7OztFQUFBLHNCQUFjLEVBQWQsTUFBYztFQUFkLGVBQWMsRUFBZCxNQUFjO0VBQWQsbUJBQWMsRUFBZCxNQUFjO0VBQWQscUJBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0VBQUEsZ0JBQWM7QUFBQTs7QUFBZDs7Ozs7Ozs7Q0FBYzs7QUFBZDs7RUFBQSxnQkFBYyxFQUFkLE1BQWM7RUFBZCw4QkFBYyxFQUFkLE1BQWM7RUFBZCxnQkFBYyxFQUFkLE1BQWM7RUFBZCxjQUFjO0tBQWQsV0FBYyxFQUFkLE1BQWM7RUFBZCwrSEFBYyxFQUFkLE1BQWM7RUFBZCw2QkFBYyxFQUFkLE1BQWM7RUFBZCwrQkFBYyxFQUFkLE1BQWM7RUFBZCx3Q0FBYyxFQUFkLE1BQWM7QUFBQTs7QUFBZDs7O0NBQWM7O0FBQWQ7RUFBQSxTQUFjLEVBQWQsTUFBYztFQUFkLG9CQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOzs7O0NBQWM7O0FBQWQ7RUFBQSxTQUFjLEVBQWQsTUFBYztFQUFkLGNBQWMsRUFBZCxNQUFjO0VBQWQscUJBQWMsRUFBZCxNQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7RUFBQSx5Q0FBYztVQUFkLGlDQUFjO0FBQUE7O0FBQWQ7O0NBQWM7O0FBQWQ7Ozs7OztFQUFBLGtCQUFjO0VBQWQsb0JBQWM7QUFBQTs7QUFBZDs7Q0FBYzs7QUFBZDtFQUFBLGNBQWM7RUFBZCx3QkFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkOztFQUFBLG1CQUFjO0FBQUE7O0FBQWQ7Ozs7O0NBQWM7O0FBQWQ7Ozs7RUFBQSwrR0FBYyxFQUFkLE1BQWM7RUFBZCw2QkFBYyxFQUFkLE1BQWM7RUFBZCwrQkFBYyxFQUFkLE1BQWM7RUFBZCxjQUFjLEVBQWQsTUFBYztBQUFBOztBQUFkOztDQUFjOztBQUFkO0VBQUEsY0FBYztBQUFBOztB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LGtCQUFtQjtFQUFuQixVQUFtQjtFQUFuQixXQUFtQjtFQUFuQixVQUFtQjtFQUFuQixZQUFtQjtFQUFuQixnQkFBbUI7RUFBbkIsc0JBQW1CO0VBQW5CLG1CQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBLGlCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBLHVCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjs7RUFBQTtJQUFBO0VBQW1CO0FBQUEsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUEsdUJBQW1CO0VBQW5CLDhEQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLHVCQUFtQjtFQUFuQiw4REFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSx1QkFBbUI7RUFBbkIsNERBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBLHFCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQSxzQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxzQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUEsa0JBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUEsa0JBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUEsNERBQW1CO0VBQW5CLG1FQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLDREQUFtQjtFQUFuQixtRUFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxvRUFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQSw2QkFBbUI7VUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxvQkFBbUI7S0FBbkI7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQSxxQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxxQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxvQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxvQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxpQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxxQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxvQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxpQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQSxtQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxrQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxlQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLG1CQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLG1CQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLGtCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLGlCQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBO0FBQW1CLENBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUEsb0JBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUE7QUFBbUIsQ0FBbkI7RUFBQSxvQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSxvQkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQTtBQUFtQixDQUFuQjtFQUFBLG9CQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLHlDQUFtQjtFQUFuQixvREFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSwrRUFBbUI7RUFBbkIsbUdBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUEsMENBQW1CO0VBQW5CLHVEQUFtQjtFQUFuQjtBQUFtQixDQUFuQjtFQUFBLDBFQUFtQjtFQUFuQiw4RkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSw4QkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSw2QkFBbUI7RUFBbkI7QUFBbUIsQ0FBbkI7RUFBQSx3SkFBbUI7RUFBbkIsd0RBQW1CO0VBQW5CO0FBQW1CLENBQW5CO0VBQUEsOEJBQW1CO0VBQW5CLHdEQUFtQjtFQUFuQjtBQUFtQixDQUFDLGtCQUFrQixXQUFXLENBQUMsS0FBSyxzQkFBc0IsQ0FBQyxhQUFhLDJFQUEyRSxDQUFDLG1FQUFtRSxDQUE5UTtFQUFBLHlDQUErUTtFQUEvUSxvREFBK1E7RUFBL1E7QUFBK1EsQ0FBL1E7RUFBQSwwRUFBK1E7RUFBL1EsOEZBQStRO0VBQS9RO0FBQStRLENBQS9RO0VBQUEsa0JBQStRO0VBQS9RO0FBQStRLENBQS9RO0VBQUE7QUFBK1EsQ0FBL1E7RUFBQSxvQkFBK1E7RUFBL1E7QUFBK1EsQ0FBL1E7RUFBQSxvQkFBK1E7RUFBL1E7QUFBK1EsQ0FBL1E7RUFBQSxvQkFBK1E7RUFBL1E7QUFBK1EsQ0FBL1E7RUFBQSx5Q0FBK1E7RUFBL1Esb0RBQStRO0VBQS9RO0FBQStRLENBQS9RO0VBQUEsMkdBQStRO0VBQS9RLHlHQUErUTtFQUEvUTtBQUErUSxDQUEvUTtFQUFBLG9CQUErUTtFQUEvUTtBQUErUSxDQUEvUTtFQUFBLG9CQUErUTtFQUEvUTtBQUErUSxDQUEvUTs7RUFBQTtJQUFBO0VBQStROztFQUEvUTtJQUFBO0VBQStROztFQUEvUTtJQUFBLG9CQUErUTtJQUEvUTtFQUErUTs7RUFBL1E7SUFBQSxrQkFBK1E7SUFBL1E7RUFBK1E7O0VBQS9RO0lBQUEsZUFBK1E7SUFBL1E7RUFBK1E7QUFBQSxDQUEvUTs7RUFBQTtJQUFBO0VBQStROztFQUEvUTtJQUFBO0VBQStROztFQUEvUTtJQUFBO0VBQStROztFQUEvUTtJQUFBO0VBQStROztFQUEvUTtJQUFBO0VBQStROztFQUEvUTtJQUFBO0VBQStRO0FBQUEsQ0FBL1E7O0VBQUE7SUFBQTtFQUErUTs7RUFBL1E7SUFBQSxrQkFBK1E7SUFBL1E7RUFBK1E7O0VBQS9RO0lBQUEsaUJBQStRO0lBQS9RO0VBQStROztFQUEvUTtJQUFBLGtCQUErUTtJQUEvUTtFQUErUTtBQUFBIiwic291cmNlc0NvbnRlbnQiOlsiQHRhaWx3aW5kIGJhc2U7QHRhaWx3aW5kIGNvbXBvbmVudHM7QHRhaWx3aW5kIHV0aWxpdGllcztodG1sLGJvZHksI19fbmV4dHtoZWlnaHQ6MTAwJX1odG1se3Njcm9sbC1iZWhhdmlvcjpzbW9vdGh9Lm1hc2stcmFkaWFsey13ZWJraXQtbWFzay1pbWFnZTpyYWRpYWwtZ3JhZGllbnQoZWxsaXBzZSBhdCBjZW50ZXIsYmxhY2ssdHJhbnNwYXJlbnQgNzAlKTttYXNrLWltYWdlOnJhZGlhbC1ncmFkaWVudChlbGxpcHNlIGF0IGNlbnRlcixibGFjayx0cmFuc3BhcmVudCA3MCUpfSJdLCJzb3VyY2VSb290IjoiIn0= */</style><noscript id="__next_css__DO_NOT_USE__"></noscript></head><body style=""><div id="__next"><div class="min-h-screen bg-white text-blue-900"><div class="h-1 w-full bg-gradient-to-r from-blue-600 via-blue-700 to-blue-900"></div><header class="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-blue-100"><nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"><a href="http://localhost:3000/#home" class="flex items-center gap-3" aria-label="Webeltek home"><img src="./localhost_files/webeltek-logo.jpg" alt="Webeltek logo" class="h-10 w-auto"></a><div class="hidden md:flex items-center gap-8"><a href="http://localhost:3000/#home" class="text-sm hover:text-blue-700 transition">Home</a><a href="http://localhost:3000/#about" class="text-sm hover:text-blue-700 transition">About</a><a href="http://localhost:3000/#services" class="text-sm hover:text-blue-700 transition">Services</a><a href="http://localhost:3000/#industries" class="text-sm hover:text-blue-700 transition">Industries</a><a href="http://localhost:3000/#faq" class="text-sm hover:text-blue-700 transition">FAQ</a><a href="http://localhost:3000/#contact" class="text-sm hover:text-blue-700 transition">Contact</a><a href="http://localhost:3000/#contact" class="rounded-xl bg-gradient-to-r from-blue-600 to-blue-800 px-4 py-2 text-sm font-medium text-white shadow">Get Started</a></div><button class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-xl border border-blue-200"><span class="sr-only">Menu</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="text-blue-900"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg></button></nav></header><section id="home" class="relative overflow-hidden h-screen flex items-center justify-center bg-black"><video autoplay="" loop="" playsinline="" preload="auto" class="absolute inset-0 w-full h-full object-cover z-0"><source src="/bg-video.mp4" type="video/mp4">Your browser does not support the video tag.</video><div class="absolute inset-0 bg-blue-950/40 -z-10"></div><div class="relative z-10 mx-auto max-w-4xl px-4 text-center text-white"><h1 class="text-5xl font-semibold leading-tight" style="opacity: 1; transform: none;">Empowering Digital Growth with <span class="text-blue-300">Webeltek</span></h1><p class="mt-4 text-lg text-blue-100" style="opacity: 1; transform: none;">IT talent acquisition, payroll management, and enterprise consulting—built for the future.</p><div class="mt-8 flex items-center justify-center gap-4" style="opacity: 1; transform: none;"><a href="http://localhost:3000/#services" class="rounded-xl bg-blue-600 hover:bg-blue-500 px-6 py-3 text-white font-medium shadow">Explore Services</a><a href="http://localhost:3000/#contact" class="rounded-xl border border-white/60 bg-white/10 hover:bg-white/20 px-6 py-3 text-white font-medium backdrop-blur">Talk to Us</a></div></div></section><section id="about" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="max-w-3xl" style="opacity: 1; transform: none;"><h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">About Webeltek</h2><p class="mt-4 text-blue-900/80">Since 2021, Webeltek has helped fast-growing organizations scale their engineering and IT operations. We blend rigorous recruiting with domain-specific screening to place the right talent—then back it with compliant, on-time payroll and white-glove support. Our consultants deliver across telecom, healthcare, data center, data science/ML, cybersecurity, cloud, and SAP.</p><p class="mt-3 text-blue-900/80">Whether you’re building a new product team, migrating to cloud, or tightening security, we align to your roadmap and deliver results without the noise.</p></div></section><section class="mx-auto max-w-7xl px-4 pb-8 sm:px-6 lg:px-8"><div><h3 class="text-2xl font-semibold">Why Choose Us</h3><div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4"><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-blue-700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4 class="font-semibold">Proven Expertise</h4></div><p class="mt-2 text-sm text-blue-900/80">Specialists across network, data, cloud, and security with project-tested experience.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-blue-700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4 class="font-semibold">Quality First</h4></div><p class="mt-2 text-sm text-blue-900/80">Multi-stage technical screening and culture-fit checks reduce churn.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-blue-700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4 class="font-semibold">Speed &amp; Scale</h4></div><p class="mt-2 text-sm text-blue-900/80">Elastic recruiting and delivery to match your hiring velocity.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="text-blue-700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4 class="font-semibold">Compliance Built-in</h4></div><p class="mt-2 text-sm text-blue-900/80">On-time payroll, tax handling, and audit-ready documentation.</p></div></div></div></section><section id="services" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="mx-auto max-w-2xl text-center" style="opacity: 1; transform: none;"><h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Services</h2><p class="mt-3 text-blue-900/80">From sourcing exceptional IT talent to effortless payroll and enterprise delivery.</p></div><div class="mt-10 grid gap-6 md:grid-cols-3"><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Data Center</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">Build and operate resilient infra: DC ops, cabling, monitoring, L2/L3.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Telecom</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">RAN, 4G/5G, core, OSS/BSS, field rollout, NOC/SOC staffing.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Data Science</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">ML engineering, MLOps, analytics, dashboarding, model governance.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Cybersecurity</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">Pen-testing, IR, SIEM/SOAR, IAM, GRC, risk assessments.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Network Management</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">Enterprise LAN/WAN, SD-WAN, load balancing, troubleshooting.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Cloud &amp; DevOps</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">AWS/Azure/GCP, CI/CD, SRE, finops, container orchestration.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Finance IT</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">Core banking, payments, risk, compliance, data warehousing.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">Healthcare IT</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">EHR/EMR, PACS, HL7/FHIR, imaging, telemedicine platforms.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><div class="flex items-center justify-between"><h3 class="text-lg font-semibold">SAP Solutions</h3><span class="text-blue-700">→</span></div><p class="mt-3 text-sm text-blue-900/80">ECC/S4HANA, BW/4HANA, integrations, migrations, support.</p><a href="http://localhost:3000/#contact" class="mt-4 inline-flex items-center gap-2 text-sm text-blue-700 hover:text-blue-900">Contact Us <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></div></div><div class="mx-auto max-w-2xl text-center mt-16" style="opacity: 1; transform: none;"><h3 class="text-2xl font-semibold">Payroll Management</h3><p class="mt-2 text-blue-900/80">Tailored, efficient, and compliant payroll that scales with you.</p></div><div class="mt-8 grid gap-6 md:grid-cols-3"><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><h4 class="text-lg font-semibold">Payroll Processing</h4><ul class="mt-3 space-y-2 text-sm text-blue-900/80"><li class="flex gap-2"><span class="text-blue-700">•</span><span>Precise, prompt salary runs</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Multi-cycle &amp; multi-country support</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Benefits &amp; reimbursements</span></li></ul></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><h4 class="text-lg font-semibold">Tax &amp; Compliance</h4><ul class="mt-3 space-y-2 text-sm text-blue-900/80"><li class="flex gap-2"><span class="text-blue-700">•</span><span>Accurate payroll taxes</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>On-time filings</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Audit-ready records</span></li></ul></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><h4 class="text-lg font-semibold">Dynamic Reporting</h4><ul class="mt-3 space-y-2 text-sm text-blue-900/80"><li class="flex gap-2"><span class="text-blue-700">•</span><span>Custom dashboards</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Exports (CSV/XLS/PDF)</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Cost &amp; variance views</span></li></ul></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none;"><h4 class="text-lg font-semibold">Security &amp; Access</h4><ul class="mt-3 space-y-2 text-sm text-blue-900/80"><li class="flex gap-2"><span class="text-blue-700">•</span><span>Role-based access</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Data protection &amp; backups</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Self-service updates</span></li></ul></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><h4 class="text-lg font-semibold">Employee Portal</h4><ul class="mt-3 space-y-2 text-sm text-blue-900/80"><li class="flex gap-2"><span class="text-blue-700">•</span><span>Payslips, leaves, overtime</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Attendance tracking</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Mobile-friendly access</span></li></ul></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="opacity: 1; transform: none; box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px;"><h4 class="text-lg font-semibold">Timekeeping Integration</h4><ul class="mt-3 space-y-2 text-sm text-blue-900/80"><li class="flex gap-2"><span class="text-blue-700">•</span><span>API-first approach</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Plug-ins for HRIS/ATS</span></li><li class="flex gap-2"><span class="text-blue-700">•</span><span>Dedicated support team</span></li></ul></div></div></section><section id="industries" class="relative border-y border-blue-100 bg-blue-50/40"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="mx-auto max-w-2xl text-center" style="opacity: 1; transform: none;"><h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Industries We Serve</h2><p class="mt-3 text-blue-900/80">Telecom • Healthcare • Data Center • Finance • Data Science • Cloud • SAP</p></div><div class="mt-8 grid gap-6 sm:grid-cols-2 md:grid-cols-3"><div class="rounded-2xl border border-blue-100 bg-white p-6" style="box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px; transform: none;"><div class="flex items-center justify-between"><h3 class="font-semibold">Telecom</h3><span class="text-blue-700">→</span></div><p class="mt-2 text-sm text-blue-900/80">Network rollout, optimization, testing, and operations.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px; transform: none;"><div class="flex items-center justify-between"><h3 class="font-semibold">Healthcare</h3><span class="text-blue-700">→</span></div><p class="mt-2 text-sm text-blue-900/80">EHR/EMR, imaging, interoperability, patient data security.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6"><div class="flex items-center justify-between"><h3 class="font-semibold">Data Center</h3><span class="text-blue-700">→</span></div><p class="mt-2 text-sm text-blue-900/80">Facility ops, hardware, networking, observability.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px; transform: none;"><div class="flex items-center justify-between"><h3 class="font-semibold">Finance</h3><span class="text-blue-700">→</span></div><p class="mt-2 text-sm text-blue-900/80">Core systems, payments, risk &amp; fraud, data governance.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6" style="box-shadow: rgba(0, 123, 255, 0.22) 0px 0px 0px; transform: none;"><div class="flex items-center justify-between"><h3 class="font-semibold">Data Science</h3><span class="text-blue-700">→</span></div><p class="mt-2 text-sm text-blue-900/80">Predictive models, MLOps, analytics engineering.</p></div><div class="rounded-2xl border border-blue-100 bg-white p-6"><div class="flex items-center justify-between"><h3 class="font-semibold">Cloud</h3><span class="text-blue-700">→</span></div><p class="mt-2 text-sm text-blue-900/80">Migration, modernization, DevOps/SRE, cost controls.</p></div></div></div></section><section id="faq" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="mx-auto max-w-3xl" style="opacity: 1; transform: none;"><h2 class="text-3xl font-semibold tracking-tight sm:text-4xl text-center">Frequently Asked Questions</h2><div class="mt-8 space-y-4"><details class="rounded-xl border border-blue-100 bg-white p-4 open:shadow transition"><summary class="cursor-pointer list-none font-medium">How do you ensure the right technical fit?</summary><p class="mt-2 text-blue-900/80 text-sm">We combine role scoping with multi-stage technical screenings, practical assessments, and stakeholder interviews to validate both skill and culture fit.</p></details><details class="rounded-xl border border-blue-100 bg-white p-4 open:shadow transition"><summary class="cursor-pointer list-none font-medium">Can you support temporary, contract-to-hire, and full-time roles?</summary><p class="mt-2 text-blue-900/80 text-sm">Yes. We deliver flexible engagement models—contract, C2H, and permanent hiring—backed by on-time payroll and compliant documentation.</p></details><details class="rounded-xl border border-blue-100 bg-white p-4 open:shadow transition"><summary class="cursor-pointer list-none font-medium">How fast can you staff a role?</summary><p class="mt-2 text-blue-900/80 text-sm">For common roles, shortlists are typically shared within days. Niche roles may take longer, but we keep you updated with clear milestones.</p></details><details class="rounded-xl border border-blue-100 bg-white p-4 open:shadow transition"><summary class="cursor-pointer list-none font-medium">Do you operate internationally?</summary><p class="mt-2 text-blue-900/80 text-sm">We support clients across India and internationally via digital delivery, remote teams, and on-site deployments where needed.</p></details><details class="rounded-xl border border-blue-100 bg-white p-4 open:shadow transition"><summary class="cursor-pointer list-none font-medium">How does your payroll service integrate with our systems?</summary><p class="mt-2 text-blue-900/80 text-sm">We’re API-first. We integrate with leading HRIS/ATS/timekeeping tools and can export custom reports in CSV/XLS/PDF.</p></details></div></div></section><section id="contact" class="relative border-y border-blue-100 bg-blue-50/40"><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="mx-auto max-w-2xl text-center" style="opacity: 1; transform: none;"><h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Let’s Talk</h2><p class="mt-3 text-blue-900/80">Share your requirements—our team replies within one business day.</p></div><form class="mx-auto mt-10 max-w-2xl grid gap-4"><div class="grid gap-4 sm:grid-cols-2"><div class="grid gap-2"><label for="name" class="text-sm">Your name</label><input id="name" name="name" required="" placeholder="John Doe" class="rounded-xl border border-blue-200 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-blue-600" value=""></div><div class="grid gap-2"><label for="email" class="text-sm">Email address</label><input id="email" name="email" type="email" required="" placeholder="john@gmail.com" class="rounded-xl border border-blue-200 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-blue-600" value=""></div></div><div class="grid gap-2"><label for="phone" class="text-sm">Phone number</label><input id="phone" name="phone" placeholder="20 111 2345 6789" class="rounded-xl border border-blue-200 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-blue-600" value=""></div><div class="grid gap-2"><label for="message" class="text-sm">Message</label><textarea id="message" name="message" rows="5" placeholder="How can we help?" class="rounded-xl border border-blue-200 bg-white px-3 py-2 outline-none focus:ring-2 focus:ring-blue-600"></textarea></div><div class="flex items-center justify-between"><p class="text-xs text-blue-700">We’ll never share your information.</p><button type="submit" class="rounded-xl bg-gradient-to-r from-blue-600 to-blue-800 px-5 py-2.5 text-sm font-medium text-white shadow">Send message</button></div></form></div></section><footer class="bg-white border-t border-blue-100"><div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 text-sm text-blue-900"><div class="grid gap-8 md:grid-cols-4"><div class="md:col-span-2"><div class="flex items-center gap-3"><img src="./localhost_files/webeltek-logo.jpg" alt="Webeltek logo" class="h-8 w-auto"><span class="font-semibold">Webeltek</span></div><p class="mt-3 max-w-md">Premier IT talent acquisition, payroll management, and enterprise consulting since 2017.</p></div><div><div class="font-semibold">Company</div><ul class="mt-3 space-y-2"><li><a href="http://localhost:3000/#services" class="hover:text-blue-700">Services</a></li><li><a href="http://localhost:3000/#industries" class="hover:text-blue-700">Industries</a></li><li><a href="http://localhost:3000/#faq" class="hover:text-blue-700">FAQ</a></li><li><a href="http://localhost:3000/#contact" class="hover:text-blue-700">Contact</a></li></ul></div><div><div class="font-semibold">Contact</div><ul class="mt-3 space-y-2"><li class="flex items-center gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>info@webeltek.com</span></li><li class="flex items-center gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>Electronic City, Bengaluru</span></li></ul></div></div><div class="mt-8 border-t border-blue-100 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4"><p>© 2025 Webeltek. All rights reserved.</p><div class="text-xs text-blue-700">Newsletter coming soon.</div></div></div></footer></div></div><script src="./localhost_files/react-refresh.js.download"></script><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"development","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><div id="__next-build-watcher" style="position: fixed; bottom: 10px; right: 20px; width: 0px; height: 0px; z-index: 99999;"><template shadowrootmode="open"><div id="container" class="">
+    <div id="icon-wrapper">
+      <svg viewBox="0 0 226 200">
+        <defs>
+          <lineargradient x1="114.720775%" y1="181.283245%" x2="39.5399306%" y2="100%" id="linear-gradient">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+          </lineargradient>
+        </defs>
+        <g id="icon-group" fill="none" stroke="url(#linear-gradient)" stroke-width="18">
+          <path d="M113,5.08219117 L4.28393801,197.5 L221.716062,197.5 L113,5.08219117 Z"></path>
+        </g>
+      </svg>
+    </div>
+  </div><style>
+    #container {
+      position: absolute;
+      bottom: 10px;
+      right: 30px;
+
+      border-radius: 3px;
+      background: #000;
+      color: #fff;
+      font: initial;
+      cursor: initial;
+      letter-spacing: initial;
+      text-shadow: initial;
+      text-transform: initial;
+      visibility: initial;
+
+      padding: 7px 10px 8px 10px;
+      align-items: center;
+      box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+      display: none;
+      opacity: 0;
+      transition: opacity 0.1s ease, bottom 0.1s ease;
+      animation: fade-in 0.1s ease-in-out;
+    }
+
+    #container.visible {
+      display: flex;
+    }
+
+    #container.building {
+      bottom: 20px;
+      opacity: 1;
+    }
+
+    #icon-wrapper {
+      width: 16px;
+      height: 16px;
+    }
+
+    #icon-wrapper > svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    #icon-group {
+      animation: strokedash 1s ease-in-out both infinite;
+    }
+
+    @keyframes fade-in {
+      from {
+        bottom: 10px;
+        opacity: 0;
+      }
+      to {
+        bottom: 20px;
+        opacity: 1;
+      }
+    }
+
+    @keyframes strokedash {
+      0% {
+        stroke-dasharray: 0 226;
+      }
+      80%,
+      100% {
+        stroke-dasharray: 659 226;
+      }
+    }
+  </style></template></div><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer></body></html>
