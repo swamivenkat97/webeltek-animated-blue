@@ -48,7 +48,7 @@ export default function WebeltekSite() {
             ))}
             <a
               href="#contact"
-              className="rounded-xl bg-gradient-to-r from-blue-600 to-blue-800 px-4 py-2 text-sm font-medium text-white shadow"
+              className="rounded-xl bg-[#0a1d56] px-4 py-2 text-sm font-medium text-[#f8cb19] shadow-glow hover:bg-[#142b70] transition"
             >
               Get Started
             </a>
@@ -118,7 +118,7 @@ export default function WebeltekSite() {
           variants={stagger}
           className="relative z-10 mx-auto max-w-4xl px-4 text-center text-white"
         >
-          <motion.h1 variants={fadeUp} className="text-5xl font-semibold leading-tight">
+          <motion.h1 variants={fadeUp} className="text-5xl font-semibold leading-tight text-[#f8cb19]">
             Empowering Digital Growth with <span className="text-blue-300">Webeltek</span>
           </motion.h1>
           <motion.p variants={fadeUp} className="mt-4 text-lg text-blue-100">
@@ -127,7 +127,7 @@ export default function WebeltekSite() {
           <motion.div variants={fadeUp} className="mt-8 flex items-center justify-center gap-4">
             <a
               href="#services"
-              className="rounded-xl bg-blue-600 hover:bg-blue-500 px-6 py-3 text-white font-medium shadow"
+              className="rounded-xl bg-[#0a1d56] px-5 py-3 text-sm font-medium text-[#f8cb19] shadow-glow hover:bg-[#142b70] transition"
             >
               Explore Services
             </a>
