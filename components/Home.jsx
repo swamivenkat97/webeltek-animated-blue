@@ -118,8 +118,8 @@ export default function WebeltekSite() {
           variants={stagger}
           className="relative z-10 mx-auto max-w-4xl px-4 text-center text-white"
         >
-          <motion.h1 variants={fadeUp} className="text-5xl font-semibold leading-tight text-[#f8cb19]">
-            Empowering Digital Growth with <span className="text-blue-300">Webeltek</span>
+          <motion.h1 variants={fadeUp} className="text-4.5xl font-semibold leading-tight text-[#f8cb19]">
+            Empowering Digital Growth With <span className="text-blue-300">Webeltek</span>
           </motion.h1>
           <motion.p variants={fadeUp} className="mt-4 text-lg text-blue-100">
             IT talent acquisition, payroll management, and enterprise consulting—built for the future.
